@@ -32,7 +32,6 @@ export class App extends Component {
     }
     return counterPercentage;
   };
-
   render() {
     const { good, neutral, bad } = this.state;
     return (
